@@ -20,7 +20,7 @@ export default function Upload() {
       if (file.type === 'application/pdf' || file.name.toLowerCase().endsWith('.pdf')) {
         const form = new FormData();
         form.append('file', file);
-        const res = await fetch('https://socialmediaanalyzer-s5w4.onrender.com/extract', {
+        const res = await fetch('https://social-media-content-analyzer-axvs.onrender.com/extract', {
           method: 'POST',
           body: form
         });
