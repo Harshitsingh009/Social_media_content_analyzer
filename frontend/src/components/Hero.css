@@ -1,0 +1,35 @@
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    background: linear-gradient(90deg, #eef2ff, #f9fbff);
+}
+
+.hero__content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #072a6b;
+}
+
+.hero p {
+    color: #475569;
+    margin-bottom: 1rem;
+}
+
+.hero__cta {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    background: #0b61d1;
+    color: white;
+}
+
+.hero__art {
+    font-size: 3rem;
+    opacity: 0.8;
+}

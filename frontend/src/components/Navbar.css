@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: white;
+    box-shadow: 0 2px 8px rgba(10, 10, 10, 0.04);
+}
+
+.nav__brand {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #0b61d1;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    color: #374151;
+}
+
+.nav__links li {
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+}
+
+.nav__links li:hover {
+    background: #eef2ff;
+    color: #0b61d1;
+}
